@@ -16,6 +16,8 @@ public class DashboardPage {
     public List<WebElement> dropdowns;
     @FindBy(css = "[type=submit]")
     public WebElement btnSubmit;
+    @FindBy(className = "oxd-userdropdown-tab")
+    public WebElement btnProfileIcon;
 
     public DashboardPage(WebDriver driver) {
         PageFactory.initElements(driver, this);

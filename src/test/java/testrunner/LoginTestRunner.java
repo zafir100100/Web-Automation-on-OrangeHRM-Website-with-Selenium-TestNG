@@ -1,3 +1,5 @@
+package testrunner;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -6,6 +8,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.DashboardPage;
 import pages.LoginPage;
+import setup.Setup;
+import utils.Utils;
 
 import java.util.List;
 
@@ -17,7 +21,7 @@ public class LoginTestRunner extends Setup {
     public void doLogin() {
         driver.get("https://opensource-demo.orangehrmlive.com");
         loginPage = new LoginPage(driver);
-        loginPage.doLogin();
+        loginPage.doLogin("admin","admin123");
         String urlActual = driver.getCurrentUrl();
         String urlExpected = "dashboard";
         Assert.assertTrue(urlActual.contains(urlExpected));
@@ -57,9 +61,7 @@ public class LoginTestRunner extends Setup {
 
     @Test(priority = 4)
     public void listEmployee() {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-
+        Utils.doScroll(driver);
         WebElement table = driver.findElement(By.className("oxd-table-body"));
         List<WebElement> allRows = table.findElements(By.cssSelector("[role=roww]"));
         for (WebElement row : allRows) {

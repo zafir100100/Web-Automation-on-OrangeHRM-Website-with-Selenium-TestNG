@@ -17,9 +17,9 @@ public class LoginPage {
         PageFactory.initElements(driver, this);
     }
 
-    public void doLogin() {
-        txtUserName.sendKeys("admin");
-        txtPassword.sendKeys("admin123");
+    public void doLogin(String userName, String password) {
+        txtUserName.sendKeys(userName);
+        txtPassword.sendKeys(password);
         btnSubmit.click();
     }
 }
