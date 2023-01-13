@@ -1,29 +1,36 @@
 package utils;
 
 import com.github.javafaker.Faker;
+import org.apache.commons.io.FileUtils;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.List;
 
 public class Utils {
     private String firstName;
     private String lastName;
 
-    public static void doScroll(WebDriver driver) {
+    public static void doScrollDown(WebDriver driver) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+    }
+
+    public static void doScrollUp(WebDriver driver) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,0)");
     }
 
     public static int generateRandomNumber(int min, int max) {
@@ -43,6 +50,14 @@ public class Utils {
         Object object = parser.parse(new FileReader(fileName));
         JSONArray jsonArray = (JSONArray) object;
         return jsonArray;
+    }
+
+    public static void takeScreenshot(WebDriver driver) throws IOException {
+        File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        String time = new SimpleDateFormat("dd-MM-yyyy-hh-mm-ss-aa").format(new Date());
+        String fileWithPath = "./src/test/resources/screenshots/" + time + ".png";
+        File destFile = new File(fileWithPath);
+        FileUtils.copyFile(screenshotFile, destFile);
     }
 
     public void generateRandomData() {

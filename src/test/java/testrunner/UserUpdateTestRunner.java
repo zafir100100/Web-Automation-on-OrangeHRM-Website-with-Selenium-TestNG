@@ -51,7 +51,7 @@ public class UserUpdateTestRunner extends Setup {
             employeePage.dropdownBox.get(0).sendKeys(Keys.ARROW_DOWN);
             employeePage.dropdownBox.get(0).sendKeys(Keys.ENTER);
             // scroll dowm amd click
-            Utils.doScroll(driver);
+            Utils.doScrollDown(driver);
             List<WebElement> buttons = driver.findElements(By.cssSelector("[type=submit]"));
             buttons.get(1).click();
         }
