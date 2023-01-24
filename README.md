@@ -8,6 +8,11 @@
 - TestNG
 - Selenium Webdriver
 
+## Allure report:
+
+![180](https://github.com/zafir100100/TestNG-orangehrmdemo/blob/master/assets/orangehrmdemo.png)
+
+
 ## Site automated:
   - Link (https://opensource-demo.orangehrmlive.com)
 
