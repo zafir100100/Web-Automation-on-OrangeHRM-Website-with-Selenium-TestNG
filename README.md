@@ -10,7 +10,7 @@
 
 ## Allure report:
 
-![180](https://github.com/zafir100100/TestNG-orangehrmdemo/blob/master/assets/orangehrmdemo.png)
+![180](https://github.com/zafir100100/TestNG-orangehrmdemo/blob/master/assets/allure-report.png)
 
 
 ## Site automated:
