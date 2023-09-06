@@ -4,5 +4,6 @@
         <suite-file path="AdminLoginSuite.xml"></suite-file>
         <suite-file path="EmployeeTestSuite.xml"></suite-file>
         <suite-file path="UserUpdateSuite.xml"></suite-file>
+        <suite-file path="MyInfoSuite.xml"></suite-file>
     </suite-files>
 </suite>

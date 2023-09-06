@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Orange HRM My Info Automation Suite">
+    <test name="Employee can update self information">
+        <classes>
+            <class name="testrunner.MyInfoTestRunner"/>
+        </classes>
+    </test>
+</suite>
