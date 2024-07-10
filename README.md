@@ -1,68 +1,62 @@
-# Web Automation on OrangeHRM Website with Selenium TestNG
+# OrangeHRM-Website-Automation-with-Selenium-TestNG
 
-## What is Automation?
+## Video Output:
+https://user-images.githubusercontent.com/29010350/202970620-16e4db42-dbb7-4186-8107-188a77a6edba.mp4
 
-Automation is the process of using software tools and scripts to perform tasks that would typically be done manually by a human. In the context of software testing, automation involves using tools to execute test cases and compare the actual results with the expected results automatically.
+## Scenerio
+1. Visit the site: https://opensource-demo.orangehrmlive.com/ 
+2. Assert the dashboard 
+3. Create 2 new employees (create login details showed on class) 
+4. Search the employees with their Id and assert that 2 employees are found 
+5. Then login with the last employee credential 
+6. Update some employee info (e.g Nationality, Date of Birth) 
+7. Now go to my info page and assert the edited info 
+8. Finally logout your profile 
 
-## Why we use Selenium TestNG for Automation?
-
-Selenium is a popular open-source testing tool widely used for automating web browsers. It allows developers and testers to automate web-based applications' testing across multiple browsers and platforms. Selenium provides a set of APIs to interact with web elements and manipulate their properties and behaviors, making it an ideal tool for automating UI tests.
-
-TestNG is a testing framework for Java that is designed to be more flexible and powerful than JUnit. It supports a wide range of testing functionalities, including unit, integration, and end-to-end testing, as well as parallel execution, data-driven testing, and reporting. TestNG is often used with Selenium to create robust and scalable test automation frameworks.
-
-## Technology used:
+## Technology and Tool Used
 - Selenium Webdriver
-- TestNG Framework
+- TestNG
 - Java
 - Gradle
-- Intellij idea
+- intellij idea 
 - Allure
 
+
 ## How to run this project
-
-- Clone this project
-- Hit the following command into the terminal:
- ```gradle clean test```
+- clone this project
+- hit the following command into the terminal:
+  - gradle clean test
+- Generate the report:
+  ```
+  allure generate allure-results --clean -o allure-report
+  ```
+- Serve the report:
+  ```
+  allure serve allure-results
+  ```     
  
-- For generating Allure Report use these commands:
-```allure generate allure-results --clean -o allure-report``` and
-```allure serve allure-results```
 
-## Scenerio:
+## Prerequisite
+- TestNG,Selenium Webdriver,Java-8 or higher dependencies must be installed
 
-- Login to orange hrm demo site: https://opensource-demo.orangehrmlive.com/
-- Create 2 new employees and save it to a JSON list
-- Now go to PIM dashboard and search by 1st user name. Assert that the user is found.
-- Now click on the user from the search table and update id by random userid
-- Now again search the user by new user id from the PIM dashboard menu and assert that the user is found
-- Now logout from admin and login with the 2nd user from your JSON list
-- Now click on My Info menu
-- Select Gender and Blood Type and save it
-- Click on contact details and input address and email
-- Logout the user
+## Test Case
+https://docs.google.com/spreadsheets/d/1sgdJhgJvCln8mgWNCwwlEcox8TOVxQJKA7i6QfJAueI/edit?usp=sharing
 
-## Test case check list based on the Scenerio:
-
-- Admin Login with Invalid credential. 
-- Admin Login with valid credential.
-- Create employee without username.
-- Create first employee.
-- create second employee.
-- Search existing employee with invalid name.
-- Search employee with valid name.
-- Update employee Id by random Id.
-- Search employee again with updated employee id.
-- Logout Admin.
-- Login second user with valid credential. 
-- Insert the second user's Gender, Blood, Address and email. 
-- Logout second user. 
-
-## Allure report:
-
-![180](https://github.com/zafir100100/TestNG-orangehrmdemo/blob/master/assets/allure-report.png)
+## Allure report Link
+https://drive.google.com/file/d/1KZMQVfcieIaAM3bEw7Q_kNNSHL3RrjJ3/view?usp=sharing
 
 
-## Site automated:
-  - Link (https://opensource-demo.orangehrmlive.com)
+## Gradle report Link
+https://drive.google.com/file/d/1VekbGwzi4FekXbFt9tNWhQpyWcXQ7F4W/view?usp=sharing
 
-![181](https://github.com/zafir100100/TestNG-orangehrmdemo/blob/master/assets/orangehrmdemo.png)
+## Allure report Screenshots:
+![Screenshot (70)](https://user-images.githubusercontent.com/29010350/202966487-aadd8618-43fb-4bf8-9553-d372a6605bb4.png)
+![Screenshot (71)](https://user-images.githubusercontent.com/29010350/202966495-8be3d4ec-1f5c-478f-9bbe-a43509b14b99.png)
+![Screenshot (72)](https://user-images.githubusercontent.com/29010350/202966510-cc1bf699-a60d-4058-a5c2-13d91f3608bf.png)
+
+## Gradle report Screenshots:
+![Screenshot (73)](https://user-images.githubusercontent.com/29010350/202966546-b954e2ff-1823-4745-9f87-03eeded453e4.png)
+
+
+
+
