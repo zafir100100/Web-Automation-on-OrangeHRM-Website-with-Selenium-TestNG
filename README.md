@@ -38,7 +38,18 @@ https://user-images.githubusercontent.com/29010350/202970620-16e4db42-dbb7-4186-
 ![Screenshot (72)](https://user-images.githubusercontent.com/29010350/202966510-cc1bf699-a60d-4058-a5c2-13d91f3608bf.png)
 
 ## Gradle report Screenshots:
-![Screenshot (73)](https://user-images.githubusercontent.com/29010350/202966546-b954e2ff-1823-4745-9f87-03eeded453e4.png)
+![image](https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/d3309015-93f2-45dd-ace5-a6d28cfa2e0b)
+![image](https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/13e62cb3-b9c8-4566-97be-d2d571b4a27d)
+![image](https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/a560b839-e693-4427-808c-8cb99d2bc7ed)
+![image](https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/d7f62017-9825-4135-9f42-78471ee3e285)
+![image](https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/97fbabcf-3cc1-46cb-afb6-18ab1babe58e)
+
+
+
+
+
+
+
 
 
 
