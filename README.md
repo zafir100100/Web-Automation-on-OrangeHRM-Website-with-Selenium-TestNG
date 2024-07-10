@@ -1,7 +1,8 @@
 # OrangeHRM-Website-Automation-with-Selenium-TestNG
 
 ## Video Output:
-https://user-images.githubusercontent.com/29010350/202970620-16e4db42-dbb7-4186-8107-188a77a6edba.mp4
+
+https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/f469ef8e-88a9-4de2-826d-64d08dbe563f
 
 ## Scenario
 1. Visit the site: https://opensource-demo.orangehrmlive.com/ 
