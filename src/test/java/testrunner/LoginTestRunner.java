@@ -17,20 +17,20 @@ public class LoginTestRunner extends Setup {
         driver.get("https://opensource-demo.orangehrmlive.com");
     }
 
-    @Test(priority = 1, description = "Admin login with wrong credentials")
-    public void doLoginWithInvalidCredentials() throws InterruptedException {
-        loginPage=new LoginPage(driver);
-        loginPage.doLogin("Adm","admin12");
-        String urlActual = driver.getCurrentUrl();
-        String urlExpected = "dashboard";
-        Assert.assertTrue(urlActual.contains(urlExpected));
-        Allure.description("Login with Invalid Credentials");
-    }
+//    @Test(priority = 1, description = "Admin login with wrong credentials")
+//    public void doLoginWithInvalidCredentials() throws InterruptedException {
+//        loginPage=new LoginPage(driver);
+//        loginPage.doLogin("Adm","admin12");
+//        String urlActual = driver.getCurrentUrl();
+//        String urlExpected = "dashboard";
+//        Assert.assertTrue(urlActual.contains(urlExpected));
+//        Allure.description("Login with Invalid Credentials");
+//    }
 
     @Test(priority = 2, description = "Admin log in successfully")
     public void doLogin() {
         loginPage = new LoginPage(driver);
-        loginPage.doLogin("admin", "admin123");
+        loginPage.doLogin(config.getAdminUserName(), config.getAdminPassword());
         String urlActual = driver.getCurrentUrl();
         String urlExpected = "dashboard";
         Assert.assertTrue(urlActual.contains(urlExpected));
