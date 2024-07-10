@@ -32,16 +32,6 @@ https://user-images.githubusercontent.com/29010350/202970620-16e4db42-dbb7-4186-
   allure serve allure-results
   ```     
 
-## Test Case
-https://docs.google.com/spreadsheets/d/1sgdJhgJvCln8mgWNCwwlEcox8TOVxQJKA7i6QfJAueI/edit?usp=sharing
-
-## Allure report Link
-https://drive.google.com/file/d/1KZMQVfcieIaAM3bEw7Q_kNNSHL3RrjJ3/view?usp=sharing
-
-
-## Gradle report Link
-https://drive.google.com/file/d/1VekbGwzi4FekXbFt9tNWhQpyWcXQ7F4W/view?usp=sharing
-
 ## Allure report Screenshots:
 ![Screenshot (70)](https://user-images.githubusercontent.com/29010350/202966487-aadd8618-43fb-4bf8-9553-d372a6605bb4.png)
 ![Screenshot (71)](https://user-images.githubusercontent.com/29010350/202966495-8be3d4ec-1f5c-478f-9bbe-a43509b14b99.png)
