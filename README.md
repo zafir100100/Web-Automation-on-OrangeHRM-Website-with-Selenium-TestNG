@@ -33,9 +33,14 @@ https://user-images.githubusercontent.com/29010350/202970620-16e4db42-dbb7-4186-
   ```     
 
 ## Allure report Screenshots:
-![Screenshot (70)](https://user-images.githubusercontent.com/29010350/202966487-aadd8618-43fb-4bf8-9553-d372a6605bb4.png)
-![Screenshot (71)](https://user-images.githubusercontent.com/29010350/202966495-8be3d4ec-1f5c-478f-9bbe-a43509b14b99.png)
-![Screenshot (72)](https://user-images.githubusercontent.com/29010350/202966510-cc1bf699-a60d-4058-a5c2-13d91f3608bf.png)
+![image](https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/56b59bbb-506c-4388-b84e-2669eecd3179)
+![image](https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/704b86d6-1cfe-4186-930d-63d5f28eb5f2)
+![image](https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/6c1331e4-3e04-45db-8703-6186ec306d6a)
+![image](https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/3ef7f439-34a0-48bd-80a3-86bea753d844)
+![image](https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/62a8caee-9638-43ec-80de-b298fa5829b2)
+![image](https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/e68def47-cf3b-4978-9fd2-a8a5554dde27)
+![image](https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/126c604c-a654-4b5c-b91d-4bf9a0ac9bcf)
+![image](https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/e3531d0d-2957-4d3a-9f4a-08ee95a55264)
 
 ## Gradle report Screenshots:
 ![image](https://github.com/zafir100100/Web-Automation-on-OrangeHRM-Website-with-Selenium-TestNG/assets/55599023/d3309015-93f2-45dd-ace5-a6d28cfa2e0b)
