@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Orange HRM admin login Automation Suite">
+    <test name="Admin can login successfully">
+        <classes>
+            <class name="testrunner.LoginTestRunner"/>
+        </classes>
+    </test>
+</suite>

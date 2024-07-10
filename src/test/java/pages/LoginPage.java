@@ -42,16 +42,10 @@ public class LoginPage {
      * @param password The password to enter.
      */
     public void doLogin(String username, String password) {
-        Utils.waitForElementClickable(driver, txtUserName, 60); // Use the stored driver to wait for the username field
         txtUserName.clear();
-        txtUserName.sendKeys(username);               // Send username to the username field
-
-        Utils.waitForElementClickable(driver, txtPassword, 60); // Use the stored driver to wait for the password field
+        txtUserName.sendKeys(username);
         txtPassword.clear();
-        txtPassword.sendKeys(password);               // Send password to the password field
-
-        Utils.waitForElementClickable(driver, btnSubmit, 60); // Use the stored driver to wait for the submit button
+        txtPassword.sendKeys(password);
         btnSubmit.click();
-        Utils.waitForElementInvisible(driver, btnSubmit, 10);
     }
 }
