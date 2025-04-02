@@ -18,6 +18,7 @@ public class Setup {
     @BeforeTest
     public void setup() {
         WebDriverManager.firefoxdriver().setup();
+//        WebDriverManager.firefoxdriver().clearDriverCache().clearResolutionCache().setup();
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
